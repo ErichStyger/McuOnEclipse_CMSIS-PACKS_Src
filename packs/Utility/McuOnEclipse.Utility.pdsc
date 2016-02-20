@@ -46,7 +46,6 @@
       </RTE_Components_h> 
       <files>
         <file category="doc" name="docs/Utility.html"/>
-        <file category="header" name="src/config/config_Utility.h" attr="config" version="1.0.0"/>
         <file category="sourceC" name="src/Utility.c"/>
         <file category="header" name="src/Utility.h"/>
         <file category="doc" name="docs/UtilityEvents.html"/>
