@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>McuOnEclipse_Packs</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.gitignore</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/.gitignore</locationURI>
+		</link>
+		<link>
+			<name>McuOnEclipse_CMSIS-PACKS</name>
+			<type>2</type>
+			<locationURI>PARENT-3-PROJECT_LOC/McuOnEclipse_CMSIS-PACKS</locationURI>
+		</link>
+		<link>
+			<name>McuOnEclipse_CMSIS-PACKS_Src/packs</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/packs</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

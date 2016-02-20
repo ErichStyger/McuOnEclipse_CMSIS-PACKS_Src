@@ -1,0 +1,22 @@
+readme.txt
+----------
+
+Package URL:
+https://github.com/ErichStyger/McuOnEclipse_CMSIS-PACKS/raw/master/index.idx
+.
+
+https://github.com/in4lio/mdr1986x-pack-repo/raw/master/Milandr.idx 
+
+XCDL: http://gnuarmeclipse.sourceforge.net/packages/content.xml
+http://www.keil.com/pack/index.idx
+http://www.steinerberg.com/pack/index.idx
+
+
+http://www.keil.com/pack/index.idx
+http://www.keil.com/pack/ARM.CMSIS.pdsc
+http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+
+
+file:///C:/Users/Erich Styger/Data/GitRepos/McuOnEclipse_CMSIS-PACKS
+
+file:///C:/temp/site/index.idx

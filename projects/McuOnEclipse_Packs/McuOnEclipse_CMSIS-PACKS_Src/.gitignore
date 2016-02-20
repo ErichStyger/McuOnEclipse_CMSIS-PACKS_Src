@@ -1,0 +1,6 @@
+*.exe
+*.pack
+*.bat
+PAcK.xsd
+/Files/*.pdsc
+

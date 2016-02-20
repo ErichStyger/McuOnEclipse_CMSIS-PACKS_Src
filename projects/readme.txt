@@ -1,0 +1,1 @@
+contains Eclipse project(s) to work on CMSIS-Packs

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package schemaVersion="1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+  <vendor>McuOnEclipse</vendor>
+  <name>Utility</name>
+  <description>Set of utility functions including safe string functions</description>
+  <!-- web download link -->
+  <url>https://github.com/ErichStyger/McuOnEclipse_CMSIS-PACKS/raw/master/Utility</url>
+  <supportContact>http://www.mcuoneclipse.com</supportContact>
+  <license>docs\license.txt</license>
+ 
+  <releases>
+    <release version="1.0.0" date="2016-02-14">
+      Improved version
+    </release>
+  </releases>
+  
+  <taxonomy>
+    <description Cclass="McuOnEclipse">McuOnEclipse Software</description>
+    <description Cclass="McuOnEclipse" Cgroup="Utility">McuOnEclipse Utility Component</description>
+  </taxonomy>
+
+  <conditions>
+    <condition id="ARM">
+      <description>Use only with the ARM compiler</description>
+      <accept Tcompiler="ARMCC"/>
+      <accept Tcompiler="GCC"/>
+    </condition>
+    <condition id="Cortex-M Device">
+      <description>Cortex-M processor based device: Cortex-M0, Cortex-M0+, Cortex-M3, Cortex-M4, Cortex-M7, SC000 or SC3000</description>
+      <accept Dcore="Cortex-M0"/>
+      <accept Dcore="Cortex-M0+"/>
+      <accept Dcore="Cortex-M3"/>
+      <accept Dcore="Cortex-M4"/>
+      <accept Dcore="Cortex-M7"/>
+      <require Cclass="McuOnEclipse" Cgroup="PE_KSDK"/>
+    </condition>
+  </conditions>
+  
+  <components>
+    <component Cclass="McuOnEclipse" Cgroup="Utility" Cversion="1.0.0" condition="Cortex-M Device">
+      <description>Utility</description>
+      <RTE_Components_h>
+        <!-- the following content goes into file 'RTE_Components.h' -->
+        #define RTE_HAS_Utility 1              /* 1: Utility component present */
+      </RTE_Components_h> 
+      <files>
+        <file category="doc" name="docs/Utility.html"/>
+        <file category="header" name="src/config/config_Utility.h" attr="config" version="1.0.0"/>
+        <file category="sourceC" name="src/Utility.c"/>
+        <file category="header" name="src/Utility.h"/>
+        <file category="doc" name="docs/UtilityEvents.html"/>
+        <file category="doc" name="docs/UtilityMethods.html"/>
+        <file category="doc" name="docs/UtilityProperties.html"/>
+      </files>
+    </component>
+  </components>
+  
+ </package>

@@ -1,0 +1,9 @@
+This is a license. Please accept it, otherwise the Pack will not be installed.
+License   :  Open Source (LGPL)
+Copyright : (c) Copyright Erich Styger, 2014-2016, all rights reserved.
+xatoi(): Copyright (C) 2010, ChaN, all right reserved. (see copyright notice and license at the function implementation).
+This an open source software implementing various utility functions.
+This is a free software and is opened for education,  research and commercial developments under license policy of following terms:
+* This is a free software and there is NO WARRANTY.
+* No restriction on use. You can use, modify and redistribute it for personal, non-profit or commercial product UNDER YOUR RESPONSIBILITY.
+* Redistributions of source code must retain the above copyright notice.
