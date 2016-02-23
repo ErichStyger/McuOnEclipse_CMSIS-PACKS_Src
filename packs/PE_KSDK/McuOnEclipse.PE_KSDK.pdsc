@@ -20,24 +20,8 @@
     <description Cclass="McuOnEclipse" Cgroup="PE_KSDK">McuOnEclipse PE_KSDK Component</description>
   </taxonomy>
 
-  <conditions>
-    <condition id="ARM">
-      <description>Use only with the ARM compiler</description>
-      <accept Tcompiler="ARMCC"/>
-      <accept Tcompiler="GCC"/>
-    </condition>
-    <condition id="Cortex-M Device">
-      <description>Cortex-M processor based device: Cortex-M0, Cortex-M0+, Cortex-M3, Cortex-M4, Cortex-M7, SC000 or SC3000</description>
-      <accept Dcore="Cortex-M0"/>
-      <accept Dcore="Cortex-M0+"/>
-      <accept Dcore="Cortex-M3"/>
-      <accept Dcore="Cortex-M4"/>
-      <accept Dcore="Cortex-M7"/>
-    </condition>
-  </conditions>
-  
   <components>
-    <component Cclass="McuOnEclipse" Cgroup="PE_KSDK" Cversion="1.0.0" condition="Cortex-M Device">
+    <component Cclass="McuOnEclipse" Cgroup="PE_KSDK" Cversion="1.0.0">
       <description>PE_KSDK</description>
 		  <RTE_Components_h>
 		    <!-- the following content goes into file 'RTE_Components.h' -->
